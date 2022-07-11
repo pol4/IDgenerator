@@ -36,11 +36,6 @@ Open the terminal from IDGenerator directory and run:
 python3 -m unittest tests/test__IDGen.py
 ```
 
-### Break down into end to end tests
-
-These tests check some methods in IDGen to ensure they work properly
-
-
 ### Deploy
 
 1. create a new project and include IDmodule.py (from “source” directory of this package) in your project 
@@ -49,7 +44,7 @@ These tests check some methods in IDGen to ensure they work properly
 ```
 from source.IDmodule import IDGen
 ```
-3. initialize a IDGen_object. You can call get_id() using set object. This method returns a newly generated ID. There are other methods in IDGen, but it is not recommended to use them
+3. initialize an IDGen_object. You can call get_id() using set object. This method returns a newly generated ID. There are other methods in IDGen, but it is not recommended to use them
 
 ```
 IDGen_object = IDGen()
