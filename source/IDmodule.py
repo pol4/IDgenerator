@@ -6,8 +6,8 @@ from uuid import getnode as get_mac
 class IDGen:
     """A class for creating IDs
        Usage:
-       counter_object = Counter()
-       ID = counter_object.get_id()"""
+       IDGen_object = IDGen()
+       ID = IDGen_object.get_id()"""
 
     c = 0    # additional counter
     t = "0"  # time mark used by get_c
