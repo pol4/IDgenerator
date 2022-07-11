@@ -18,15 +18,15 @@ sudo apt-get install python3
 
 ### Installing
 
-1. open terminal with ctrl+alt+T
-2. install python 3.9.2 or later:
+1. Open terminal with ctrl+alt+T
+2. Install python 3.9.2 or later:
 
 	```bash
 	sudo apt-get update
 	sudo apt-get install python3
 
 	```
-3. install python IDE of your choice
+3. Install python IDE of your choice
 
 ### Running the tests
 
@@ -38,13 +38,13 @@ python3 -m unittest tests/test__IDGen.py
 
 ### Deploy
 
-1. create a new project and include IDmodule.py (from “source” directory of this package) in your project 
-2. copy & paste the text bellow into .py file you wish to use with ID generator.
+1. Create a new project and include IDmodule.py (from “source” directory of this package) in your project 
+2. Copy & paste the text bellow into .py file you wish to use with ID generator.
 
 ```
-from source.IDmodule import IDGen
+from IDmodule import IDGen
 ```
-3. initialize an IDGen_object. You can call get_id() using set object. This method returns a newly generated ID. There are other methods in IDGen, but it is not recommended to use them
+3. Initialize an IDGen_object. You can call get_id() using set object. This method returns a newly generated ID. There are other methods in IDGen, but it is not recommended to use them
 
 ```
 IDGen_object = IDGen()
