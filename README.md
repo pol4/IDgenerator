@@ -32,20 +32,16 @@ sudo apt-get install python3
 
 Open the terminal from IDGenerator directory and run:
 
-	```bash
-	python3 -m unittest tests/test__IDGen.py
-
-	```
+```
+python3 -m unittest tests/test__IDGen.py
+```
 
 ### Break down into end to end tests
 
-	These tests check some methods in IDGen to ensure they work properly
+These tests check some methods in IDGen to ensure they work properly
 
-```
 
-```
-
-###Deploy
+### Deploy
 
 1. create a new project and include IDmodule.py (from “source” directory of this package) in your project 
 2. copy & paste the text bellow into .py file you wish to use with ID generator.
@@ -61,7 +57,7 @@ ID = IDGen_object.get_id()
 ```
 
 ## Built With
-	PyCharm by JetBrain
+	PyCharm by JetBrains
 
 ## Versioning
 
@@ -70,6 +66,7 @@ We use SemVer for versioning. For changelog see CHANGELOG.txt.
 ## Authors
 
 **Bugrov Svyatoslav** - *Initial work*
+
 **Andrey Starchenkov** - *Supervision*
 
 ## License
