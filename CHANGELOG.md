@@ -7,6 +7,10 @@ The format is based on Keep a Changelog
   - IDmodule now has docstrings and comments
   - Test for IDGen
 ### Changed
+  -README.md
+
+
+### Changed
   - CHANGELOG.md
   - LICENSE.md
   - README.md
