@@ -3,7 +3,7 @@ import math
 from uuid import getnode as get_mac
 
 
-class Counter:
+class IDGen:
     """A class for creating IDs
        Usage:
        counter_object = Counter()
@@ -23,7 +23,7 @@ class Counter:
         """ generates extra number for unification.
         should not be called by the user """
         t2 = self.epoch()
-        if (int(t2) - int(self.t)) > 1000 or self.c > 100:  # resets counter if millisecond has passed
+        if (int(t2) - int(self.t)) > 1000 or self.c > 100:  # resets counter if millisecond has passed or c > 100
             self.t = t2
             self.c = 1
         temp = self.digits(self.c)[1:] + str(self.c)
@@ -53,7 +53,3 @@ class Counter:
         """returns a new unique ID. should be called by the user"""
         return int("0" + self.epoch() + str(self.mac) + self.get_c())
 
-
-a = Counter()
-print(a.get_id())
-help(Counter)
