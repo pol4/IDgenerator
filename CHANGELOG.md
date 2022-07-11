@@ -4,7 +4,8 @@ The format is based on Keep a Changelog
 
 ## [0.2.1] - 2022-07-11
 ### Added
-  - IDmodule now has docstrings and comments 
+  - IDmodule now has docstrings and comments
+  - Test for IDGen
 ### Changed
   - CHANGELOG.md
   - LICENSE.md
