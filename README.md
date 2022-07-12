@@ -9,23 +9,9 @@ You need:
 * python 3.9.2
 * any IDE capable of working with python
 
-
-```bash
-sudo apt-get update
-sudo apt-get install python3
-
-```
-
 ### Installing
 
-1. Open terminal with ctrl+alt+T
-2. Install python 3.9.2 or later:
-
-	```bash
-	sudo apt-get update
-	sudo apt-get install python3
-
-	```
+2. Install python 3.9.2 or later
 3. Install python IDE of your choice
 
 ### Running the tests
