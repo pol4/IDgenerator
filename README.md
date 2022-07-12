@@ -11,8 +11,8 @@ You need:
 
 ### Installing
 
-2. Install python 3.9.2 or later
-3. Install python IDE of your choice
+1. Install python 3.9.2 or later
+2. Install python IDE of your choice
 
 ### Running the tests
 
