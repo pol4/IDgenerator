@@ -16,9 +16,10 @@ You need:
 
 ### Running the tests
 
-Open the terminal from IDGenerator directory and run:
+Tests are currently disabled
 
 ```
+Open the terminal from IDGenerator directory and run:
 python3 -m unittest tests/test__IDGen.py
 ```
 
@@ -27,15 +28,7 @@ python3 -m unittest tests/test__IDGen.py
 1. Create a new project and include IDmodule.py (from “source” directory of this package) in your project 
 2. Copy & paste the text bellow into .py file you wish to use with ID generator.
 
-```
-from IDmodule import IDGen
-```
-3. Initialize an IDGen_object. You can call get_id() using set object. This method returns a newly generated ID. There are other methods in IDGen, but it is not recommended to use them
-
-```
-IDGen_object = IDGen()
-ID = IDGen_object.get_id()
-```
+3. call your_variable = new_id(). The generated ID is int type
 
 ## Built With
 	PyCharm by JetBrains
