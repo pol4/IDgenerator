@@ -2,6 +2,11 @@
 
 The format is based on Keep a Changelog
 
+## [0.3.0] - 2022-07-15
+### Changed
+  - full overhaul of Idmodule.py
+
+
 ## [0.2.1] - 2022-07-11
 ### Added
   - IDmodule now has docstrings and comments
