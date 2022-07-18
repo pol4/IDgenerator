@@ -2,9 +2,15 @@
 
 The format is based on Keep a Changelog
 
+## [0.3.1] - 2022-07-18
+### Added
+  - Makefile
+### Changed
+  - Updated tests
+
 ## [0.3.0] - 2022-07-15
 ### Changed
-  - full overhaul of Idmodule.py
+  - Full overhaul of Idmodule.py
 
 
 ## [0.2.1] - 2022-07-11
