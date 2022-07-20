@@ -17,5 +17,5 @@ test:
 
 clean:
 	echo "Removing old tar"
-	rm -rf ../IDGenerator
+	rm -rf IDgenerator.py.tar
 	echo "Done"
