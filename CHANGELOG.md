@@ -2,6 +2,12 @@
 
 The format is based on Keep a Changelog
 
+## [0.3.2] - 2022-07-20
+
+### Changed
+  - Updated makefile
+  - Updated README.md
+  - Changed dir name: source -> IDgenerator
 ## [0.3.1] - 2022-07-18
 ### Added
   - Makefile
