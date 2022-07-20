@@ -1,4 +1,5 @@
 ﻿/venv/
 .idea/
-source/__pycache__/
+IDgenerator/__pycache__/
 tests/__pycache__/
+Idgenerator.py.tar
