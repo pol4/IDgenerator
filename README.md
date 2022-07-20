@@ -14,13 +14,12 @@ You need:
 1. Install python 3.9.2 or later
 2. Install python IDE of your choice
 
+
 ### Running the tests
 
-Tests are currently disabled
-
-```
 Open the terminal from IDGenerator directory and run:
-python3 -m unittest tests/test__IDGen.py
+```
+Make test
 ```
 
 ### Deploy
@@ -29,9 +28,21 @@ python3 -m unittest tests/test__IDGen.py
 2. Copy & paste the text bellow into .py file you wish to use with ID generator.
 
 3. call your_variable = new_id(). The generated ID is int type
+4. If you require an archive,run
+
+```
+Make pack
+```
+in console. Tests are run automatically before archivating.
+
+5. To remove the archive, run 
+
+```
+Make clean
+```
 
 ## Built With
-	PyCharm by JetBrains
+ - PyCharm by JetBrains
 
 ## Versioning
 
