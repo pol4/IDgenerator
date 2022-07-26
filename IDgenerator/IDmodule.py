@@ -1,4 +1,6 @@
+from datetime import datetime
 import uuid
+import json
 
 
 class IDGen:
@@ -27,4 +29,11 @@ class IDGen:
                                         temp))
         return res
 
+    def json(self):
+        json_id = {'ID': self.new_id(), 'birth': str(datetime.now().strftime("%m/%d/%Y, %H:%M:%S")), 'host': self.mac}
+        json_id = json.dumps(json_id)
+        return json_id
 
+
+a = IDGen()
+a.new_id()
