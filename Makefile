@@ -7,14 +7,15 @@ all:
 
 pack: test
 	echo "Creating tar"
-	tar -cf IDgenerator.py.tar IDgenerator/IDmodule.py README.md LICENSE.md requirements.txt
+	tar -cf IDgenerator.py.tar IDgenerator/IDmodule.py IDgenerator_web/IDserver.py IDgenerator_web/url_mkr.py README.md LICENSE.md requirements.txt
 	echo "Done"
 
 test:
 	echo "Running tests"
 	python3 -m unittest tests/test__IDmodule.py
-	echo "Done"
-
+	python3 IDgenerator_web/IDserver.py 0.0.0.0 5000 &
+	python3 -m unittest tests/test__IDserver.py
+	kill "%python3"
 clean:
 	echo "Removing old tar"
 	rm -rf IDgenerator.py.tar

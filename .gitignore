@@ -3,3 +3,5 @@
 IDgenerator/__pycache__/
 tests/__pycache__/
 Idgenerator.py.tar
+IDgenerator_web/__pycache__/
+IDgenerator_web/config.txt
