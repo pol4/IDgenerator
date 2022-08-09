@@ -35,5 +35,7 @@ class IDGen:
         return json_id
 
 
-a = IDGen()
-a.new_id()
+if __name__ == "__main__":
+    a = IDGen()
+    a = a.new_id()
+    print(a)
